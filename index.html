@@ -1,0 +1,1455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Aucshow</title>
+    <script type="text/javascript" src="./javascript/app.js"></script>
+    <link rel="stylesheet" href="./fornt/Font/Font/NotoSansKR-Light.otf">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/libarary.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="./fornt/fontawesome-free-5.15.3-web/fontawesome-free-5.15.3-web/css/all.min.css">
+</head>
+
+<body>
+    <div class="container_header">
+        <img src="./img/home_page/banner_home_page.jpg" class="hide_mobile" alt="">
+        <img src="./img/home_page/icon1_banner_home_page.png" class="icon_banner " alt="">
+        <img src="./img/home_page/icon2_banner_home_page.png" class="icon_banner " alt="">
+        <img src="./img/home_page/icon3_banner_home_page.png" class="icon_banner " alt="">
+        <img src="./img/home_page/icon4_banner_home_page.png" class="icon_banner " alt="">
+        <img src="./img/home_page/icon5_banner_home_page.png" class="icon_banner " alt="">
+        <img src="./img/home_page/icon6_banner_home_page.png" class="icon_banner " alt="">
+        <div class="form_category">
+            <h1>
+                나에게 딱 맞는 광고를 검색해 보세요
+            </h1>
+            <div class="form_category__layout">
+                <div class="row no-gutters hide_form">
+                    <div class="col l-12">
+                        <h4>
+                            광고 희망지역
+                        </h4>
+                    </div>
+                </div>
+                <div class="form_category__layout-bg">
+                    <ul class="form_category__buttonList-mobile">
+                        <h4>
+                            광고 희망지역
+                        </h4>
+                        <ul class="form_category__buttonList-list">
+                            <li class="form_category__buttonList-mobile--list">
+                                <a href="" class="mobile-list--link">
+                                    지역 
+                                </a>
+                            </li>
+                            <li class="form_category__buttonList-mobile--list">
+                                <a href="" class="mobile-list--link">
+                                    지하철 
+                                </a>
+                            </li>
+                            <li class="form_category__buttonList-mobile--list">
+                                <a href="" class="mobile-list--link">
+                                    역 선
+                                </a>
+                            </li>
+                        </ul>
+                    </ul>
+                    <div class="row no-gutters form_category__layout-heading hide_form">
+                        <div class="col l-4 category_drop">
+                            지역을 선택해 주세요
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="col l-4 category_drop">
+                            1호선
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="col l-4 category_drop">
+                            역 선택
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    <div class="row no-gutters hide_form">
+                        <div class="col l-12">
+                            <h4>
+                                광고예산
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="row no-gutters hide_form">
+                        <div class="checkbox_pos">
+                            <input type="checkbox">
+                        </div>
+                        <div class="min-max-slider" data-legendnum="2">
+                            <label for="min">Minimum price</label>
+                            <input id="min" class="min" name="min" type="range" step="1" min="0" max="200000" />
+                            <label for="max">Maximum price</label>
+                            <input id="max" class="max" name="max" type="range" step="1" min="0" max="200000" />
+                        </div>
+                    </div>
+                    <hr class="hide_form">
+                    <div class="row no-gutters hide_form">
+                        <div class="col l-12">
+                            <h4>
+                                광고종류
+                            </h4>
+                        </div>
+                        <div class="col l-2-4 ">
+                            <span class="checkbox_mar">
+                                <input type="checkbox">영상광고
+                            </span>
+                        </div>
+                        <div class="col l-2-4 ">
+                            <span class="checkbox_mar">
+                                <input type="checkbox">인쇄/부착광고
+                            </span>
+                        </div>
+                        <div class="col l-2-4 ">
+                            <span class="checkbox_mar">
+                                <input type="checkbox">현수막
+                            </span>
+                        </div>
+                        <div class="col l-2-4 ">
+                            <span class="checkbox_mar">
+                                <input type="checkbox">고정광고
+                            </span>
+                        </div>
+                        <div class="col l-2-4 ">
+                            <span class="checkbox_mar">
+                                <input type="checkbox">이동광고
+                            </span>
+                        </div>
+                    </div>
+                    <hr class="hide_form">
+                    <div class="row no-gutters hide_form">
+                        <div class="col l-12">
+                            <h4>
+                                광고업종
+                            </h4>
+                        </div>
+                        <div class="col l-2-4">
+                            <div class="checkbox_no__mar">
+                                <input type="checkbox">영상광고
+                            </div>
+                        </div>
+                        <div class="col l-2-4">
+                            <div class="checkbox_no__mar">
+                                <input type="checkbox">영상광고
+                            </div>
+                        </div>
+                        <div class="col l-2-4">
+                            <div class="checkbox_no__mar">
+                                <input type="checkbox">영상광고
+                            </div>
+                        </div>
+                        <div class="col l-2-4">
+                            <div class="checkbox_no__mar">
+                                <input type="checkbox">영상광고
+                            </div>
+                        </div>
+                        <div class="col l-2-4">
+                            <div class="checkbox_no__mar">
+                                <input type="checkbox">영상광고
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row no-gutters hide_form">
+                        <div class="col l-2-4">
+                            <div class="checkbox_no__mar">
+                                <input type="checkbox">영상광고
+                            </div>
+                        </div>
+                        <div class="col l-2-4">
+                            <div class="checkbox_no__mar">
+                                <input type="checkbox">영상광고
+                            </div>
+                        </div>
+                        <div class="col l-2-4">
+                            <div class="checkbox_no__mar">
+                                <input type="checkbox">영상광고
+                            </div>
+                        </div>
+                        <div class="col l-2-4">
+                            <div class="checkbox_no__mar">
+                                <input type="checkbox">영상광고
+                            </div>
+                        </div>
+                        <div class="col l-2-4">
+                            <div class="checkbox_no__mar">
+                                <input type="checkbox">영상광고
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row no-gutters hide_form">
+                        <div class="col l-2-4">
+                            <div class="checkbox_no__mar">
+                                <input type="checkbox">영상광고
+                            </div>
+                        </div>
+                        <div class="col l-2-4">
+                            <div class="checkbox_no__mar">
+                                <input type="checkbox">영상광고
+                            </div>
+                        </div>
+                        <div class="col l-2-4">
+                            <div class="checkbox_no__mar">
+                                <input type="checkbox">영상광고
+                            </div>
+                        </div>
+                        <div class="col l-2-4">
+                            <div class="checkbox_no__mar">
+                                <input type="checkbox">영상광고
+                            </div>
+                        </div>
+                        <div class="col l-2-4">
+                            <div class="checkbox_no__mar">
+                                <input type="checkbox">영상광고
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form_category__layout-bg mar_layout__form">
+                    <div class="checkbox_pos">
+                        <h4>
+                            광고예산
+                        </h4>
+                        <span>
+                            <input type="checkbox"> 제한없음
+                        </span>
+                    </div>
+                    <div class="min-max-slider" data-legendnum="2">
+                        <label for="min">Minimum price</label>
+                        <input id="min" class="min" name="min" type="range" step="1" min="0" max="200000" />
+                        <label for="max">Maximum price</label>
+                        <input id="max" class="max" name="max" type="range" step="1" min="0" max="200000" />
+                    </div>
+                </div>
+                <div class="form_category__layout-bg mar_layout__form layout_form__border layout_form__border-height">
+                    <ul class="form_category__list">
+                        <li class="form_category__list-item">
+                            광고종류
+                        </li>
+                        <li class="form_category__list-item">
+                            <a class="form_category__list-item--link">
+                                수정하기
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="form_category__layout-bg mar_layout__form layout_form__border layout_form__border-height">
+                    <ul class="form_category__list">
+                        <li class="form_category__list-item ">
+                            광고종류
+                        </li>
+                        <li class="form_category__list-item">
+                            <a class="form_category__list-item--link">
+                                수정하기
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="row no-gutters button_submit">
+                    <button id="btnAction" class="button_submit__action btn">
+                        광고 검색
+                    </button>
+                </div>
+            </div>
+
+        </div>
+        <!-- navigation -->
+        <nav id="nav_header">
+            <div class="grid wide nav_header__layout">
+                <div class="nav_header__brand">
+                    <ul class="nav_header__list logo_header">
+                        <a href="">
+                            <img src="./img/home_page/logo_home_page.png" alt="Logo">
+                            <img src="./img/home_page/name_home_page.png" alt="Name">
+                        </a>
+                        <img src="./img/home_page/column_header.png" class="hide_on__smallView" alt="">
+                        <img src="./img/home_page/content_home_page.png" class="hide_on__smallView" alt="">
+                    </ul>
+                    <ul class="nav_header__brand hide_mobile">
+                        <div class="nav_header__brand-search">
+                            <input type="text" class="nav_header__brand-search--input" placeholder="광고 진행할 지역 검색">
+                            <button class="nav_header__brand-search--action">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </ul>
+                    <ul class="nav_header__brand">
+                        <li class="nav_header__brand-list hide_on__smallView">
+                            <a href="" class="nav__header__brand-list--link">
+                                <img src="./img/home_page/icon_message_header.png" alt=""> 빠른상담
+                            </a>
+                        </li>
+                        <li class="nav_header__brand-list hide_on__smallView">
+                            <a href="" class="nav__header__brand-list--link">
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav_header__brand-list hide_on__smallView">
+                            <a href="" class="nav__header__brand-list--link">
+                                옥쇼맵
+                            </a>
+                        </li>
+                        <li class="nav_header__brand-list hide_on__smallView">
+                            <a href="" class="nav__header__brand-list--link">
+                                옥쇼핑
+                            </a>
+                        </li>
+                        <li class="nav_header__brand-list hide_on__smallView">
+                            <a href="" class="nav__header__brand-list--link">
+                                문의
+                            </a>
+                        </li>
+                        <li class="nav_header__brand-list hide_on__smallView">
+                            <a href="" class="nav__header__brand-list--link">
+                                옥쇼?
+                            </a>
+                        </li>
+                        <li class="nav_header__brand-list hide_on__smallView">
+                            <a href="" class="nav__header__brand-list--link">
+                                로그인
+                            </a>
+                        </li>
+                        <li class="nav_header__brand-list hide_on__smallView">
+                            <a href="" class="nav__header__brand-list--link">
+                                회원가입
+                            </a>
+                        </li>
+                        <li class="nav_header__brand-list hide_on__pc">
+                            <label for="nav_mobile" class="nav__header__brand-list--link button_on__smallView">
+                                <i class="fas fa-bars"></i>
+                            </label>
+                            <input type="checkbox" hidden id="nav_mobile" class="nav_input">
+                            <label for="nav_mobile" class="overlay"></label>
+                            <div class="nav_on__mobile">
+                                <div class="nav_on__mobile-body">
+                                    <ul class="nav_on__mobile-menu--header header_menu">
+                                        <li class="nav_on__mobile-menu--list height_list__header">
+                                            <a href="#" class="nav_on__mobile-menu--list---link link_header">
+                                                <span class="link_header__text">
+                                                    로그인/ 
+                                                    <span>
+                                                        회원가입
+                                                    </span>
+                                                </span>
+                                                <span class="icon_header__menu">
+                                                    <i class="fas fa-comments button_message"></i>
+                                                    <label for="nav_mobile">
+                                                        <i class="fas fa-times button_close"></i>
+                                                    </label>
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav_on__mobile-menu--list height_list__header">
+                                            <a href="#" class="nav_on__mobile-menu--list---link link_header">
+                                                옥쇼핑 문의 옥쇼?
+                                            </a>
+                                        </li>
+                                        <li class="nav_on__mobile-menu--list height_list__header">
+                                            <a href="#" class="nav_on__mobile-menu--list---link link_header">
+                                                문의
+                                            </a>
+                                        </li>
+                                        <li class="nav_on__mobile-menu--list height_list__header">
+                                            <a href="#" class="nav_on__mobile-menu--list---link link_header">
+                                                옥쇼?
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="nav_on__mobile-menu--header body_menu">
+                                        <li class="nav_on__mobile-menu--list">
+                                            <a href="#" class="nav_on__mobile-menu--list---link body_link">
+                                                회사소개 
+                                            </a>
+                                        </li>
+                                        <li class="nav_on__mobile-menu--list">
+                                            <a href="#" class="nav_on__mobile-menu--list---link body_link">
+                                                옥쇼맵 
+                                            </a>
+                                        </li>
+                                        <li class="nav_on__mobile-menu--list">
+                                            <a href="#" class="nav_on__mobile-menu--list---link body_link">
+                                                옥쇼핑 
+                                            </a>
+                                        </li>
+                                        <li class="nav_on__mobile-menu--list">
+                                            <a href="#" class="nav_on__mobile-menu--list---link body_link">
+                                                광고진행사례 
+                                            </a>
+                                        </li>
+                                        <li class="nav_on__mobile-menu--list">
+                                            <a href="#" class="nav_on__mobile-menu--list---link body_link">
+                                                회광고상담진행 
+                                            </a>
+                                        </li>
+                                        <li class="nav_on__mobile-menu--list">
+                                            <a href="#" class="nav_on__mobile-menu--list---link body_link">
+                                                제휴파트너신청  
+                                            </a>
+                                        </li>
+                                        <li class="nav_on__mobile-menu--list">
+                                            <a href="#" class="nav_on__mobile-menu--list---link body_link">
+                                                기기설치신청
+                                            </a>
+                                        </li>
+                                        <li class="nav_on__mobile-menu--list">
+                                            <a href="#" class="nav_on__mobile-menu--list---link body_link">
+                                                매체등록신청
+                                            </a>
+                                        </li>
+                                        <li class="nav_on__mobile-menu--list">
+                                            <a href="#" class="nav_on__mobile-menu--list---link body_link">
+                                                Q & A
+                                            </a>
+                                        </li>
+                                        <li class="nav_on__mobile-menu--list">
+                                            <a href="#" class="nav_on__mobile-menu--list---link body_link">
+                                                공지사항
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="nav_on__mobile-menu--header footer_menu">
+                                        <li class="nav_on__mobile-menu--list">
+                                            <a href="#" class="nav_on__mobile-menu--list---link footer_link">
+                                                고객센터
+                                            </a>
+                                        </li>
+                                        <li class="nav_on__mobile-menu--list">
+                                            <a href="#" class="nav_on__mobile-menu--list---link footer_link link_number">
+                                                1661-1126
+                                            </a>
+                                        </li>
+                                        <li class="nav_on__mobile-menu--list">
+                                            <a href="#" class="nav_on__mobile-menu--list---link footer_link">
+                                                사업자등록번호 : 119-21-43384  
+                                            </a>
+                                        </li>
+                                        <li class="nav_on__mobile-menu--list">
+                                            <a href="#" class="nav_on__mobile-menu--list---link footer_link">
+                                                통신판매업신고번호 : 제 2014-서울관악-0133호
+                                            </a>
+                                        </li>
+                                        <li class="nav_on__mobile-menu--list">
+                                            <a href="#" class="nav_on__mobile-menu--list---link footer_link">
+                                                고 통신판매업신고번호 : 제 2014-서울관악-0133호
+                                            </a>
+                                        </li>
+                                        <li class="nav_on__mobile-menu--list">
+                                            <a href="#" class="nav_on__mobile-menu--list---link footer_link">
+                                                고 통신판매업신고번호 : 제 2014-서울관악-0133호
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="category_slide">
+            <div class="grid wide">
+                <div class="row sm-gutter">
+                    <div class="col l-12 m-12 c-12">
+                        <nav class="category_slide__list-nav">
+                            <ul class="category_slide__list">
+                                <li class="category_slide__list-item">
+                                    <button class="action_slide__left">
+                                        <i class="fas fa-chevron-left"></i>
+                                    </button>
+                                </li>
+                                <li class="category_slide__list-item">
+                                    <a href="" class="category_slide__list-item--link">
+                                        <img src="./img/home_page/icon_silde_1.png" alt="">
+                                        <span class="category_silde__list-item--link---text">
+                                            모두
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="category_slide__list-item">
+                                    <a href="" class="category_slide__list-item--link">
+                                        <img src="./img/home_page/icon_silde_2.png" alt="">
+                                        <span class="category_silde__list-item--link---text">
+                                            모두
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="category_slide__list-item">
+                                    <a href="" class="category_slide__list-item--link">
+                                        <img src="./img/home_page/icon_silde_3.png" alt="">
+                                        <span class="category_silde__list-item--link---text">
+                                            모두
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="category_slide__list-item">
+                                    <a href="" class="category_slide__list-item--link">
+                                        <img src="./img/home_page/icon_silde_4.png" alt="">
+                                        <span class="category_silde__list-item--link---text">
+                                            모두
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="category_slide__list-item">
+                                    <a href="" class="category_slide__list-item--link">
+                                        <img src="./img/home_page/icon_silde_5.png" alt="">
+                                        <span class="category_silde__list-item--link---text">
+                                            모두
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="category_slide__list-item">
+                                    <a href="" class="category_slide__list-item--link">
+                                        <img src="./img/home_page/icon_silde_6.png" alt="">
+                                        <span class="category_silde__list-item--link---text">
+                                            모두
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="category_slide__list-item">
+                                    <a href="" class="category_slide__list-item--link">
+                                        <img src="./img/home_page/icon_silde_7.png" alt="">
+                                        <span class="category_silde__list-item--link---text">
+                                            모두
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="category_slide__list-item">
+                                    <a href="" class="category_slide__list-item--link">
+                                        <img src="./img/home_page/icon_silde_8.png" alt="">
+                                        <span class="category_silde__list-item--link---text">
+                                            모두
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="category_slide__list-item">
+                                    <a href="" class="category_slide__list-item--link">
+                                        <img src="./img/home_page/icon_silde_9.png" alt="">
+                                        <span class="category_silde__list-item--link---text">
+                                            모두
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="category_slide__list-item">
+                                    <a href="" class="category_slide__list-item--link">
+                                        <img src="./img/home_page/icon_silde_10.png" alt="">
+                                        <span class="category_silde__list-item--link---text">
+                                            모두
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="category_slide__list-item">
+                                    <button class="action_slide__left">
+                                        <i class="fas fa-chevron-right"></i>
+                                    </button>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container_body">
+        <div class="grid wide">
+            <div class="row sm-gutter">
+                <div class="col l-12">
+                    <div class="header_category__products">
+                        <h1>
+                            NEW 신규매체
+                        </h1>
+                        <ul class="button_slide__product">
+                            <li class="button_slide__product-list">
+                                <a href="" class="button_slide__product-list--link">
+                                    <i class="fas fa-chevron-left"></i>
+                                </a>
+                            </li>
+                            <li class="button_slide__product-list">
+                                <a href="" class="button_slide__product-list--link">
+                                    <i class="fas fa-chevron-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row sm-gutter">
+                <div class="col l-3 m-6 c-6 products_layout">
+                    <img src="./img/home_page/img_row1_pos1.jpg" alt="">
+                    <div class="info_products">
+                        <h4 class="info_name__products">
+                            CU편의점 매대
+                        </h4>
+                        <p class="info_des__products">
+                            운영대수 : 2,740대
+                        </p>
+                        <span class="info_price__product">
+                            <p class="text">
+                                광고비용 : 
+                            </p>
+                            <p class="price">
+                                 2,300,000 원  
+                            </p>
+                        </span>
+                        <ul class="info_price__footer">
+                            <li class="info_price__footer-list">
+                                <a href="" class="info_price__footer-list--link">
+                                    영상광고
+                                </a>
+                            </li>
+                            <li class="info_price__footer-list">
+                                <a href="" class="info_price__footer-list--link">
+                                    음향지원
+                                </a>
+
+                            </li>
+                            <li class="info_price__footer-list">
+                                <a href="" class="info_price__footer-list--link">
+                                    대형화면
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col l-3 m-6 c-6 products_layout">
+                    <img src="./img/home_page/img_row1_pos2.jpg" alt="">
+                    <div class="info_products">
+                        <h4 class="info_name__products">
+                            파라다이스시티
+                        </h4>
+                        <p class="info_des__products">
+                            운영대수 : 2,740대
+                        </p>
+                        <span class="info_price__product">
+                            <p class="text">
+                                광고비용 : 
+                            </p>
+                            <p class="price">
+                                 2,300,000 원  
+                            </p>
+                        </span>
+                        <ul class="info_price__footer">
+                            <li class="info_price__footer-list">
+                                <a href="" class="info_price__footer-list--link">
+                                    영상광고
+                                </a>
+                            </li>
+                            <li class="info_price__footer-list">
+                                <a href="" class="info_price__footer-list--link">
+                                    음향지원
+                                </a>
+                            </li>
+                            <li class="info_price__footer-list">
+                                <a href="" class="info_price__footer-list--link">
+                                    대형화면
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col l-3 m-6 c-6 products_layout">
+                    <img src="./img/home_page/img_row1_pos3.jpg" alt="">
+                    <div class="info_products">
+                        <h4 class="info_name__products">
+                            빅스터
+                        </h4>
+                        <p class="info_des__products">
+                            운영대수 : 2,740대
+                        </p>
+                        <span class="info_price__product">
+                            <p class="text">
+                                광고비용 : 
+                            </p>
+                            <p class="price">
+                                 2,300,000 원  
+                            </p>
+                        </span>
+                        <ul class="info_price__footer">
+                            <li class="info_price__footer-list">
+                                <a href="" class="info_price__footer-list--link">
+                                    영상광고
+                                </a>
+                            </li>
+                            <li class="info_price__footer-list">
+                                <a href="" class="info_price__footer-list--link">
+                                    음향지원
+                                </a>
+                            </li>
+                            <li class="info_price__footer-list">
+                                <a href="" class="info_price__footer-list--link">
+                                    대형화면
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col l-3 m-6 c-6 products_layout">
+                    <img src="./img/home_page/img_row1_pos4.jpg" alt="">
+                    <div class="info_products">
+                        <h4 class="info_name__products">
+                            코엑스-삼성역 연결통로 대형 영
+                        </h4>
+                        <p class="info_des__products">
+                            운영대수 : 2,740대
+                        </p>
+                        <span class="info_price__product">
+                            <p class="text">
+                                광고비용 : 
+                            </p>
+                            <p class="price">
+                                 2,300,000 원  
+                            </p>
+                        </span>
+                        <ul class="info_price__footer">
+                            <li class="info_price__footer-list">
+                                <a href="" class="info_price__footer-list--link">
+                                    영상광고
+                                </a>
+                            </li>
+                            <li class="info_price__footer-list">
+                                <a href="" class="info_price__footer-list--link">
+                                    음향지원
+                                </a>
+                            </li>
+                            <li class="info_price__footer-list">
+                                <a href="" class="info_price__footer-list--link">
+                                    대형화면
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row sm-gutter">
+                <div class="col l-12">
+                    <div class="header_category__products">
+                        <h1>
+                            BEST 매체
+                        </h1>
+                        <ul class="button_slide__product">
+                            <li class="button_slide__product-list">
+                                <a href="" class="button_slide__product-list--link">
+                                    <i class="fas fa-chevron-left"></i>
+                                </a>
+                            </li>
+                            <li class="button_slide__product-list">
+                                <a href="" class="button_slide__product-list--link">
+                                    <i class="fas fa-chevron-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row sm-gutter">
+                <div class="col l-3 m-6 c-6 products_layout">
+                    <img src="./img/home_page/img_row2_pos1.jpg" alt="">
+                    <div class="info_products">
+                        <h4 class="info_name__products">
+                            CU편의점 매대
+                        </h4>
+                        <p class="info_des__products">
+                            운영대수 : 2,740대
+                        </p>
+                        <span class="info_price__product">
+                            <p class="text">
+                                광고비용 : 
+                            </p>
+                            <p class="price">
+                                 2,300,000 원  
+                            </p>
+                        </span>
+                        <ul class="info_price__footer">
+                            <li class="info_price__footer-list">
+                                <a href="" class="info_price__footer-list--link">
+                                    영상광고
+                                </a>
+                            </li>
+                            <li class="info_price__footer-list">
+                                <a href="" class="info_price__footer-list--link">
+                                    음향지원
+                                </a>
+                            </li>
+                            <li class="info_price__footer-list">
+                                <a href="" class="info_price__footer-list--link">
+                                    대형화면
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col l-3 m-6 c-6 products_layout">
+                    <img src="./img/home_page/img_row2_pos2.jpg" alt="">
+                    <div class="info_products">
+                        <h4 class="info_name__products">
+                            파라다이스시티
+                        </h4>
+                        <p class="info_des__products">
+                            운영대수 : 2,740대
+                        </p>
+                        <span class="info_price__product">
+                            <p class="text">
+                                광고비용 : 
+                            </p>
+                            <p class="price">
+                                 2,300,000 원  
+                            </p>
+                        </span>
+                        <ul class="info_price__footer">
+                            <li class="info_price__footer-list">
+                                <a href="" class="info_price__footer-list--link">
+                                    영상광고
+                                </a>
+                            </li>
+                            <li class="info_price__footer-list">
+                                <a href="" class="info_price__footer-list--link">
+                                    음향지원
+                                </a>
+                            </li>
+                            <li class="info_price__footer-list">
+                                <a href="" class="info_price__footer-list--link">
+                                    대형화면
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col l-3 m-6 c-6 products_layout">
+                    <img src="./img/home_page/img_row2_pos3.jpg" alt="">
+                    <div class="info_products">
+                        <h4 class="info_name__products">
+                            빅스터
+                        </h4>
+                        <p class="info_des__products">
+                            운영대수 : 2,740대
+                        </p>
+                        <span class="info_price__product">
+                            <p class="text">
+                                광고비용 : 
+                            </p>
+                            <p class="price">
+                                 2,300,000 원  
+                            </p>
+                        </span>
+                        <ul class="info_price__footer">
+                            <li class="info_price__footer-list">
+                                <a href="" class="info_price__footer-list--link">
+                                    영상광고
+                                </a>
+                            </li>
+                            <li class="info_price__footer-list">
+                                <a href="" class="info_price__footer-list--link">
+                                    음향지원
+                                </a>
+                            </li>
+                            <li class="info_price__footer-list">
+                                <a href="" class="info_price__footer-list--link">
+                                    대형화면
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col l-3 m-6 c-6 products_layout">
+                    <img src="./img/home_page/img_row2_pos4.jpg" alt="">
+                    <div class="info_products">
+                        <h4 class="info_name__products">
+                            코엑스-삼성역 연결통로 대형 영
+                        </h4>
+                        <p class="info_des__products">
+                            운영대수 : 2,740대
+                        </p>
+                        <span class="info_price__product">
+                            <p class="text">
+                                광고비용 : 
+                            </p>
+                            <p class="price">
+                                 2,300,000 원  
+                            </p>
+                        </span>
+                        <ul class="info_price__footer">
+                            <li class="info_price__footer-list">
+                                <a href="" class="info_price__footer-list--link">
+                                    영상광고
+                                </a>
+                            </li>
+                            <li class="info_price__footer-list">
+                                <a href="" class="info_price__footer-list--link">
+                                    음향지원
+                                </a>
+                            </li>
+                            <li class="info_price__footer-list">
+                                <a href="" class="info_price__footer-list--link">
+                                    대형화면
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row sm-gutter">
+                <div class="col l-12 width_message">
+                    <ul class="footer_category__products">
+                        <li class="footer_category__products-list">
+                            <img src="./img/home_page/icon_message.png" alt="">
+                            <span class="products_list__text">
+                                <p>
+                                    질문하기
+                                </p>
+                                <p>
+                                    광고 관련 문의사항
+                                </p>
+                            </span>
+                            <a href="" class="footer_category__products-list--link">
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                        </li>
+                        <li class="footer_category__products-list">
+                            <img src="./img/home_page/icon_message.png" alt="">
+                            <span class="products_list__text">
+                                <p>
+                                    질문하기
+                                </p>
+                                <p>
+                                    광고 관련 문의사항
+                                </p>
+                            </span>
+                            <a href="" class="footer_category__products-list--link">
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                        </li>
+                        <li class="footer_category__products-list">
+                            <img src="./img/home_page/icon_message.png" alt="">
+                            <span class="products_list__text">
+                                <p>
+                                    질문하기
+                                </p>
+                                <p>
+                                    광고 관련 문의사항
+                                </p>
+                            </span>
+                            <a href="" class="footer_category__products-list--link">
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row sm-gutter">
+                <div class="col l-12 header_text__list-layout">
+                    <h1 class="header_text__list">
+                        저 만들어보세요 !
+                    </h1>
+                    <span class="header_img__list">
+                        <img src="./img/home_page/logo_home_page.png" alt="">
+                        <img src="./img/home_page/name_home_page.png" alt="">
+                        <img src="./img/home_page/X_text.png" alt="">
+                        <img src="./img/home_page/mifi_canvas_text.png" alt="">
+                    </span>
+                </div>
+            </div>
+            <div class="row sm-gutter">
+                <div class="list_products__second">
+                    <div class="row sm-gutter">
+                        <ul class="products_second__nav">
+                            <li class="products_second__nav-list">
+                                <a href="" class="active_status products_second__nav-list--link ">
+                                    전체
+                                </a>
+                            </li>
+                            <li class="products_second__nav-list">
+                                <a href="" class="products_second__nav-list--link">
+                                    병원
+                                </a>
+                            </li>
+                            <li class="products_second__nav-list">
+                                <a href="" class="products_second__nav-list--link">
+                                    학원
+                                </a>
+                            </li>
+                            <li class="products_second__nav-list">
+                                <a href="" class="products_second__nav-list--link">
+                                    헤어/뷰티
+                                </a>
+                            </li>
+                            <li class="products_second__nav-list">
+                                <a href="" class="products_second__nav-list--link">
+                                    헬스/운동
+                                </a>
+                            </li>
+                            <li class="products_second__nav-list">
+                                <a href="" class="products_second__nav-list--link">
+                                    판매점
+                                </a>
+                            </li>
+                            <li class="products_second__nav-list">
+                                <a href="" class="products_second__nav-list--link">
+                                    부동산
+                                </a>
+                            </li>
+                            <li class="products_second__nav-list">
+                                <a href="" class="products_second__nav-list--link">
+                                    카페
+                                </a>
+                            </li>
+                            <li class="products_second__nav-list">
+                                <a href="" class="products_second__nav-list--link">
+                                    전체
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row sm-gutter">
+                        <div class="row sm-gutter">
+                        </div>
+                        <div class="col l-3 m-6 c-6 products_list__second-layout">
+                            <img src="./img/home_page/img_row3_pos1.jpg" alt="">
+                            <span class="footer_products__list-second">
+                                <a href="" class="footer_product__list-second--link">
+                                    문의
+                                </a>
+                                </p>
+                                <a href="" class="footer_product__list-second--link">
+                                    스케줄 체크
+                                </a>
+                            </span>
+                        </div>
+                        <div class="col l-3 m-6 c-6 products_list__second-layout">
+                            <img src="./img/home_page/img_row3_pos2.jpg" alt="">
+                            <span class="footer_products__list-second">
+                                <a href="" class="footer_product__list-second--link">
+                                    문의
+                                </a>
+                                </p>
+                                <a href="" class="footer_product__list-second--link">
+                                    스케줄 체크
+                                </a>
+                            </span>
+                        </div>
+                        <div class="col l-3 m-6 c-6 products_list__second-layout">
+                            <img src="./img/home_page/img_row3_pos3.jpg" alt="">
+                            <span class="footer_products__list-second">
+                                <a href="" class="footer_product__list-second--link">
+                                    문의
+                                </a>
+                                </p>
+                                <a href="" class="footer_product__list-second--link">
+                                    스케줄 체크
+                                </a>
+                            </span>
+                        </div>
+                        <div class="col l-3 m-6 c-6 products_list__second-layout">
+                            <img src="./img/home_page/img_row3_pos4.jpg" alt="">
+                            <span class="footer_products__list-second">
+                                <a href="" class="footer_product__list-second--link">
+                                    문의
+                                </a>
+                                </p>
+                                <a href="" class="footer_product__list-second--link">
+                                    스케줄 체크
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row sm-gutter">
+                        <div class="row sm-gutter">
+                        </div>
+                        <div class="col l-3 m-6 c-6 products_list__second-layout">
+                            <img src="./img/home_page/img_row4_pos1.jpg" alt="">
+                            <span class="footer_products__list-second">
+                                <a href="" class="footer_product__list-second--link">
+                                    문의
+                                </a>
+                                </p>
+                                <a href="" class="footer_product__list-second--link">
+                                    스케줄 체크
+                                </a>
+                            </span>
+                        </div>
+                        <div class="col l-3 m-6 c-6 products_list__second-layout">
+                            <img src="./img/home_page/img_row4_pos2.jpg" alt="">
+                            <span class="footer_products__list-second">
+                                <a href="" class="footer_product__list-second--link">
+                                    문의
+                                </a>
+                                </p>
+                                <a href="" class="footer_product__list-second--link">
+                                    스케줄 체크
+                                </a>
+                            </span>
+                        </div>
+                        <div class="col l-3 m-6 c-6 products_list__second-layout">
+                            <img src="./img/home_page/img_row4_pos3.jpg" alt="">
+                            <span class="footer_products__list-second">
+                                <a href="" class="footer_product__list-second--link">
+                                    문의
+                                </a>
+                                </p>
+                                <a href="" class="footer_product__list-second--link">
+                                    스케줄 체크
+                                </a>
+                            </span>
+                        </div>
+                        <div class="col l-3 m-6 c-6 products_list__second-layout">
+                            <img src="./img/home_page/img_row4_pos4.jpg" alt="">
+                            <span class="footer_products__list-second">
+                                <a href="" class="footer_product__list-second--link">
+                                    문의
+                                </a>
+                                </p>
+                                <a href="" class="footer_product__list-second--link">
+                                    스케줄 체크
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row sm-gutter">
+                        <ul class="button_next__slide">
+                            <li class="button_next__slide-list">
+                                <a href="" class="button_next__slide-list--action">
+                                    1
+                                </a>
+                            </li>
+                            <li class="button_next__slide-list">
+                                <a href="" class="button_next__slide-list--action">
+                                    2
+                                </a>
+                            </li>
+                            <li class="button_next__slide-list">
+                                <a href="" class="button_next__slide-list--action">
+                                    <i class="fas fa-angle-double-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="row sm-gutter">
+
+                        <ul class="button_wrap__up">
+                            <li class="button_wrap__up-list--action">
+                                <a href="" class="button_wrap__up-click--action">
+                                        접기
+                                        <i class="fas fa-chevron-up"></i>
+                                    </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row sm-gutter">
+                <div class="col l-12 banner_footer__layout">
+                    <h1 class="banner_footer__layout-heading--up">
+                        실종자 / 잃어버린 동물 알리기
+                    </h1>
+                    <h2 class="banner_footer__layout-heading--down">
+                        사람이나 동물을 잃어버린 장소근처에 광고해보세요
+                    </h2>
+                    <div class="banner_footer__layout-search">
+
+                        <div class="banner_footer__layout-search--input">
+                            <input type="text" class="input_wrap">
+                            <button class="input_wrap__search btn">
+                                찾아보기
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <footer class="footer">
+        <div class="grid wide">
+            <div class="row sm-gutter footer_category__header">
+                <div class="col m-12 c-12">
+                    <ul class="category_footer__list">
+                        <li class="category_footer__list-item">
+                            <a href="" class="category_footer__list-item--link">
+                                회사소개
+                            </a>
+                        </li>
+                        <li class="category_footer__list-item">
+                            <a href="" class="category_footer__list-item--link">
+                                광고 진행사례
+                            </a>
+                        </li>
+                        <li class="category_footer__list-item">
+                            <a href="" class="category_footer__list-item--link">
+                                공지사항
+                            </a>
+                        </li>
+                        <li class="category_footer__list-item">
+                            <a href="" class="category_footer__list-item--link">
+                                Q&A
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row sm-gutter ">
+                <div class="col m-4 c-4">
+                    <nav class="category_footer ">
+                        <ul class="category_footer__brand margin_cate">
+                            <img src="./img/home_page/icon_brand__footer.png" alt="">
+                            <img src="./img/home_page/header_dark.png" alt="">
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col m-8 c-8">
+                    <div class="row sm-gutter column_reverse">
+                        <div class="col l-6 m-6 c-12 mar_center">
+                            <ul class="text_list__footer">
+                                <li class="text_list__footer-list">
+                                    대표이사 : 장세영 사업자등록번호 : 119-21-43384
+                                </li>
+                                <li class="text_list__footer-list">
+                                    통신판매업신고번호 : 제 2014-서울관
+                                </li>
+                                <li class="text_list__footer-list">
+                                    통신판매업신고번호 : 제 2014-서울관
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col l-6 m-6 c-12 mar_center">
+                            <ul class="text_list__footer">
+                                <li class="text_list__footer-list number_text__footer">
+                                    고객센터 1661-1126
+                                </li>
+                                <li class="text_list__footer-list">
+                                    평일 AM 09:00 ~ PM 07:00 토요일 AM 10:00 ~ PM 02:00
+                                </li>
+                                <li class="text_list__footer-list">
+                                    평일 AM 09:00 ~ PM 07:00 토요일 AM 10:00 ~ PM 02:00
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row sm-gutter hide_on__smallView ">
+                <div class="col l-5 m-12 c-12">
+                    <nav class="category_footer">
+                        <ul class="category_footer__brand">
+                            <img src="./img/home_page/icon_brand__footer.png" alt="">
+                            <img src="./img/home_page/header_dark.png" alt="">
+                        </ul>
+                        <ul class="category_footer__list">
+                            <li class="category_footer__list-item">
+                                <a href="" class="category_footer__list-item--link">
+                                    회사소개
+                                </a>
+                            </li>
+                            <li class="category_footer__list-item">
+                                <a href="" class="category_footer__list-item--link">
+                                    광고 진행사례
+                                </a>
+                            </li>
+                            <li class="category_footer__list-item">
+                                <a href="" class="category_footer__list-item--link">
+                                    공지사항
+                                </a>
+                            </li>
+                            <li class="category_footer__list-item">
+                                <a href="" class="category_footer__list-item--link">
+                                    Q&A
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <hr>
+                </div>
+                <div class="col l-7 m-12 c-12">
+                    <div class="row sm-gutter">
+                        <div class="col l-6 m-6 c-12">
+                            <ul class="text_list__footer">
+                                <li class="text_list__footer-list">
+                                    대표이사 : 장세영 사업자등록번호 : 119-21-43384
+                                </li>
+                                <li class="text_list__footer-list">
+                                    통신판매업신고번호 : 제 2014-서울관
+                                </li>
+                                <li class="text_list__footer-list">
+                                    통신판매업신고번호 : 제 2014-서울관
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col l-6 m-6 c-12">
+                            <ul class="text_list__footer">
+                                <li class="text_list__footer-list number_text__footer">
+                                    고객센터 1661-1126
+                                </li>
+                                <li class="text_list__footer-list">
+                                    평일 AM 09:00 ~ PM 07:00 토요일 AM 10:00 ~ PM 02:00
+                                </li>
+                                <li class="text_list__footer-list">
+                                    평일 AM 09:00 ~ PM 07:00 토요일 AM 10:00 ~ PM 02:00
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div id="modal" class="overlay2">
+        <div class="modal_layout__content">
+            <a id="btnCLoseModal">
+                <i class="far fa-times-circle"></i>
+            </a>
+            <div class="modal_header">
+                <h1>
+                    광고종류 선택하기
+                </h1>
+            </div>
+            <div class="modal_body">
+                <ul class="modal_body__category">
+                    <li class="modal_body__category-list">
+                        <a class="modal_body__category-list--link">
+                            영상광고
+                        </a>
+                    </li>
+                    <li class="modal_body__category-list">
+                        <a class="modal_body__category-list--link">
+                            인쇄/부착광고
+                        </a>
+                    </li>
+                    <li class="modal_body__category-list">
+                        <a class="modal_body__category-list--link">
+                            현수막
+                        </a>
+                    </li>
+                </ul>
+                <ul class="modal_body__category">
+                    <li class="modal_body__category-list">
+                        <a class="modal_body__category-list--link">
+                            영상광고
+                        </a>
+                    </li>
+                    <li class="modal_body__category-list">
+                        <a class="modal_body__category-list--link">
+                            인쇄/부착광고
+                        </a>
+                    </li>
+                    <li class="modal_body__category-list">
+                        <a class="modal_body__category-list--link">
+                            현수막
+                        </a>
+                    </li>
+                </ul>
+                <ul class="modal_body__category">
+                    <li class="modal_body__category-list">
+                        <a class="modal_body__category-list--link">
+                            영상광고
+                        </a>
+                    </li>
+                    <li class="modal_body__category-list">
+                        <a class="modal_body__category-list--link">
+                            인쇄/부착광고
+                        </a>
+                    </li>
+                    <li class="modal_body__category-list">
+                        <a class="modal_body__category-list--link">
+                            현수막
+                        </a>
+                    </li>
+                </ul>
+                <ul class="modal_body__category">
+                    <li class="modal_body__category-list">
+                        <a class="modal_body__category-list--link">
+                            영상광고
+                        </a>
+                    </li>
+                    <li class="modal_body__category-list">
+                        <a class="modal_body__category-list--link">
+                            인쇄/부착광고
+                        </a>
+                    </li>
+                    <li class="modal_body__category-list ">
+                        <a class="modal_body__category-list--link "> 현수막
+                        </a>
+                    </li>
+                </ul>
+                <ul class="modal_body__category">
+                    <li class="modal_body__category-list">
+                        <a class="modal_body__category-list--link">
+                            영상광고
+                        </a>
+                    </li>
+                    <li class="modal_body__category-list">
+                        <a class="modal_body__category-list--link">
+                            인쇄/부착광고
+                        </a>
+                    </li>
+                    <li class="modal_body__category-list ">
+                        <a class="modal_body__category-list--link "> 현수막
+                        </a>
+                    </li>
+                </ul>
+                <ul class="modal_body__category">
+                    <li class="modal_body__category-list">
+                        <a class="modal_body__category-list--link">
+                            영상광고
+                        </a>
+                    </li>
+                    <li class="modal_body__category-list">
+                        <a class="modal_body__category-list--link">
+                            인쇄/부착광고
+                        </a>
+                    </li>
+                    <li class="modal_body__category-list ">
+                        <a class="modal_body__category-list--link "> 현수막
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <button class="btn modal_submit">
+                선택완료
+            </button>
+        </div>
+    </div>
+    <script type="text/javascript" src="./javascript/app.js"></script>
+    <script>
+        let preScrollPos = window.pageYOffset;
+        window.onscroll = () => {
+                let currentScrollPos = window.pageYOffset;
+                if (preScrollPos > currentScrollPos) {
+                    document.querySelector("#nav_header").style.top = '0';
+                } else {
+                    document.querySelector('#nav_header').style.top = '-68px'
+                }
+                preScrollPos = currentScrollPos;
+            }
+            // modal click
+        let modal = document.getElementById("modal");
+        let button = document.getElementById("btnAction");
+        let btnClose = document.querySelector("#btnCLoseModal");
+        button.onclick = () => {
+            modal.style.display = "block"
+        }
+        btnClose.onclick = () => {
+            modal.style.display = "none"
+        }
+        window.onclick = (event) => {
+                if (event.target === modal) {
+                    modal.style.display = "none";
+                }
+            }
+            // get nodeList
+        const btnArrays = document.getElementsByClassName("modal_body__category-list");
+        for (let i = 0; i < btnArrays.length; i++) {
+            btnArrays[i].onclick = () => {
+                btnArrays[i].classList.toggle("active");
+            }
+        };
+    </script>
+</body>
+
+</html>
