@@ -1,6 +1,10 @@
 /* tablet pro */
 
-@media(min-width:1024px) and (max-width: 1366px) {}
+@media(min-width:1024px) and (max-width: 1239px) {
+    .header_text__list-layout {
+        display: flex;
+    }
+}
 
 @media(max-width: 1229px) {}
 
@@ -13,6 +17,12 @@
     }
     .hide_on__smallView {
         display: none;
+    }
+    .products_layout {
+        margin-bottom: 20px;
+    }
+    .products_layout>img {
+        max-width: 100%;
     }
 }
 
@@ -29,10 +39,6 @@
 /* mobile */
 
 @media(max-width:754px) {
-    .container_header>img:nth-child(1) {
-        width: 100%;
-        height: 910px;
-    }
     .hide_on__pc {
         display: block;
     }
@@ -160,5 +166,12 @@
     .category_footer__brand::after {
         height: 154px;
         top: -100%;
+    }
+    .products_layout>img {
+        max-width: 100%;
+    }
+    .products_list__second-layout>.products_layout>img {
+        width: 332px;
+        height: 334px;
     }
 }

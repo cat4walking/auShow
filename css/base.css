@@ -1,5 +1,5 @@
 :root {
-    --header--hight: 68px;
+    --header--hight: 80px;
     --text--dark: #000;
     --text--light: #ffff;
     --backgroud-color--body: #f6f6f6;
@@ -17,6 +17,10 @@ html {
     box-sizing: border-box;
     font-size: 100%;
     scroll-behavior: smooth;
+}
+
+body {
+    max-width: 1920px;
 }
 
 @-webkit-keyframes fadeInDown {
@@ -114,40 +118,40 @@ hr {
     height: var(--icon_size-); */
 }
 
+.container_header>img:nth-child(1) {
+    bottom: 22%;
+    left: 15%;
+    height: 44px;
+}
+
 .container_header>img:nth-child(2) {
-    bottom: 50%;
-    left: 16%;
-    height: 30px;
+    bottom: 1%;
+    left: 18%;
+    height: 44px;
 }
 
 .container_header>img:nth-child(3) {
-    bottom: 38%;
-    left: 18%;
-    height: 30px;
+    bottom: 12%;
+    left: 25%;
+    height: 44px;
 }
 
 .container_header>img:nth-child(4) {
-    bottom: 44%;
-    left: 22%;
-    height: 30px;
+    bottom: 12%;
+    right: 25%;
+    height: 44px;
 }
 
 .container_header>img:nth-child(5) {
-    bottom: 50%;
-    right: 16%;
-    height: 30px;
+    bottom: 22%;
+    right: 15%;
+    height: 44px;
 }
 
 .container_header>img:nth-child(6) {
-    bottom: 38%;
+    bottom: 1%;
     right: 18%;
-    height: 30px;
-}
-
-.container_header>img:nth-child(7) {
-    bottom: 44%;
-    right: 22%;
-    height: 30px;
+    height: 44px;
 }
 
 .overlay {
