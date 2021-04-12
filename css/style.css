@@ -113,9 +113,11 @@
 }
 
 .form_category {
-    position: absolute;
+    position: fixed;
     top: 20%;
     left: 28%;
+    bottom: 0;
+    max-width: 100%;
     width: 664px;
     display: none;
     animation: fadeInDown cubic-bezier(0.165, 0.84, 0.44, 1) 0.4s;

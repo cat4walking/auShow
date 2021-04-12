@@ -4,6 +4,10 @@
     .header_text__list-layout {
         display: flex;
     }
+    .form_category {
+        top: 8%;
+        left: 18%;
+    }
 }
 
 @media(max-width: 1229px) {}
@@ -82,8 +86,8 @@
         width: 100%;
     }
     .form_category {
-        width: 581px;
-        left: 8%;
+        max-width: 80%;
+        left: 11%;
         top: 10%;
     }
     .form_category__layout {
