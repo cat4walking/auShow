@@ -114,10 +114,11 @@
 
 .form_category {
     position: absolute;
-    top: 12%;
-    left: 32%;
+    top: 20%;
+    left: 28%;
     width: 664px;
     display: none;
+    animation: fadeInDown cubic-bezier(0.165, 0.84, 0.44, 1) 0.4s;
 }
 
 .form_category>h1 {
@@ -126,6 +127,7 @@
 }
 
 .form_category__layout {
+    max-width: 662px;
     padding: 20px;
     background-color: #ffff;
     margin-top: 24px;
@@ -1061,4 +1063,12 @@ span.value.upper::before {
 
 .margin_bottom {
     margin-bottom: 20px;
+}
+
+#openForm:hover {
+    cursor: pointer;
+}
+
+.show_on {
+    display: block;
 }

@@ -24,7 +24,7 @@
         <img src="./img/home_page/icon4_banner_home_page.png" class="icon_banner " alt="">
         <img src="./img/home_page/icon5_banner_home_page.png" class="icon_banner " alt="">
         <img src="./img/home_page/icon6_banner_home_page.png" class="icon_banner " alt="">
-        <div class="form_category">
+        <div class="form_category" id="formModal">
             <h1>
                 나에게 딱 맞는 광고를 검색해 보세요
             </h1>
@@ -266,7 +266,7 @@
             <div class="grid wide nav_header__layout">
                 <div class="nav_header__brand">
                     <ul class="nav_header__list logo_header">
-                        <a href="">
+                        <a id="openForm">
                             <img src="./img/home_page/logo_home_page.png" alt="Logo">
                             <img src="./img/home_page/name_home_page.png" alt="Name">
                         </a>
@@ -283,7 +283,7 @@
                     </ul>
                     <ul class="nav_header__brand">
                         <li class="nav_header__brand-list hide_on__smallView">
-                            <a href="" class="nav__header__brand-list--link">
+                            <a class="nav__header__brand-list--link">
                                 <img src="./img/home_page/icon_message_header.png" alt=""> 빠른상담
                             </a>
                         </li>
@@ -1627,11 +1627,23 @@
         let modal = document.getElementById("modal");
         let button = document.getElementById("btnAction");
         let btnClose = document.querySelector("#btnCLoseModal");
+        let btnForm = document.getElementById("openForm");
+        let form = document.getElementById("formModal");
+
+        btnForm.onclick = () => {
+            form.classList.toggle("show_on");
+        };
+
         button.onclick = () => {
             modal.style.display = "block"
         }
         btnClose.onclick = () => {
             modal.style.display = "none"
+        }
+        window.onclick = (click) => {
+            if (click.target === form) {
+                form.classList.add("active");
+            }
         }
         window.onclick = (event) => {
                 if (event.target === modal) {

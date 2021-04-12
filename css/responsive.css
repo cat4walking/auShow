@@ -59,7 +59,7 @@
 
 /* mobile */
 
-@media(max-width:754px) {
+@media(max-width:768px) {
     .action_slide__left {
         display: none;
     }
@@ -84,7 +84,7 @@
     .form_category {
         width: 581px;
         left: 8%;
-        top: 6%;
+        top: 10%;
     }
     .form_category__layout {
         background-color: #edefef;
@@ -213,5 +213,14 @@
     }
     .footer_category__header {
         display: block;
+    }
+    .container_header {
+        min-height: 910px;
+    }
+    .container_header {
+        background-image: url(../img/home_page/banner_home_page_mobile.jpg);
+    }
+    .form_category>h1 {
+        font-size: 1.6rem;
     }
 }
