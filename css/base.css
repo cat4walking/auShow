@@ -177,6 +177,7 @@ hr {
 }
 
 .modal_layout__content {
+    z-index: 2000;
     background-color: #fefefe;
     margin: auto;
     border: 1px solid #888;

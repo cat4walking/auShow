@@ -114,6 +114,7 @@
 
 .form_category {
     position: fixed;
+    z-index: 9;
     top: 20%;
     left: 28%;
     bottom: 0;
@@ -319,12 +320,10 @@ span.value.upper::before {
     overflow-x: auto;
 }
 
-
-/* .category_slide__list-nav {
-    overflow-x: auto;
+.category_slide__list-nav {
     display: flex;
     align-items: center;
-} */
+}
 
 .category_slide__list-item {
     flex-shrink: 0;
