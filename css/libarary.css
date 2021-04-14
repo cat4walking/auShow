@@ -6,7 +6,7 @@
 
 .grid.wide {
     max-width: 1122px;
-    margin: 0 0 0 378px;
+    margin: 0 auto;
 }
 
 .row {
@@ -471,5 +471,17 @@
     }
     .wide .l-o-11 {
         margin-left: 91.66667%;
+    }
+}
+
+@media (min-width: 1920px) {
+    .grid {
+        width: 100%;
+        display: block;
+        padding: 0;
+    }
+    .grid.wide {
+        max-width: 1122px;
+        margin: 0 0 0 378px;
     }
 }
