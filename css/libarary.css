@@ -143,11 +143,11 @@
 
 @media (min-width: 754px) {
     .row {
-        margin-left: -10px;
+        margin-left: -20px;
         margin-right: -10px;
     }
     .col {
-        padding-left: 10px;
+        padding-left: 20px;
         padding-right: 10px;
     }
     .m-0 {

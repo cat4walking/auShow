@@ -2,6 +2,7 @@
     --header--hight: 64px;
     --text--dark: #000;
     --text--light: #ffff;
+    --white-color: #fff;
     --backgroud-color--body: #f6f6f6;
     --price-color: #ff3d00;
     --background-footer: #545454;
@@ -212,4 +213,8 @@ hr {
     align-items: center;
     font-size: 2rem;
     color: var(--text--light);
+}
+
+.margin-bottom3 {
+    margin-bottom: 30px;
 }

@@ -1,3 +1,9 @@
+@media (min-width: 1920px) {
+    .product_layout-img {
+        width: 270px;
+    }
+}
+
 /* tablet pro */
 
 @media(min-width:1024px) and (max-width: 1239px) {
@@ -7,6 +13,12 @@
     .form_category {
         top: 8%;
         left: 18%;
+    }
+    .footer_category__products>.footer_category__products-list:nth-child(1) {
+        margin: 0;
+    }
+    .footer_category__products>.footer_category__products-list:nth-child(3) {
+        margin: 0;
     }
 }
 
@@ -22,7 +34,8 @@
         display: none;
     }
     .products_layout {
-        margin-bottom: 20px;
+        padding-bottom: 20px;
+        margin-bottom: 30px;
     }
     .products_layout>img {
         max-width: 100%;
@@ -45,6 +58,12 @@
     .margin_bottom {
         margin-bottom: 20px;
     }
+    .footer_category__products>.footer_category__products-list:nth-child(1) {
+        margin: 0;
+    }
+    .footer_category__products>.footer_category__products-list:nth-child(3) {
+        margin: 0;
+    }
 }
 
 /* mobile & tablet */
@@ -56,25 +75,99 @@
     .margin_bottom {
         margin-bottom: 20px;
     }
+    .footer_category__products>.footer_category__products-list:nth-child(1) {
+        margin: 0;
+    }
+    .footer_category__products>.footer_category__products-list:nth-child(3) {
+        margin: 0;
+    }
+    .width_message {
+        margin: 0;
+        height: 120px;
+    }
+    .products_layout__list2 {
+        height: 400px;
+    }
+    .product_layout-img2 {
+        height: 334px;
+    }
+    .product_layout__list2-info {
+        height: 66px;
+    }
+    .banner_footer__layout {
+        height: 276px;
+        padding: 0;
+        background-size: 100% 100%;
+        object-fit: cover;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 20px 0;
+        padding-left: 50px;
+    }
+    .banner_footer__layout-heading--up, .banner_footer__layout-heading--down {
+        padding-left: 0;
+    }
+    .banner_footer__layout-search {
+        margin-left: 0;
+        max-width: 400px;
+    }
+    .banner_footer__layout-heading--down {
+        margin-bottom: 20px;
+    }
+    .banner_footer__layout-search {
+        margin: 0;
+    }
+    .banner_footer__layout-heading--up {
+        font-size: 2.2rem;
+        line-height: 2.2rem;
+        margin-bottom: 20px;
+    }
+    .text_list__footer {
+        padding-left: 0;
+    }
+    .text_list__footer-list {
+        font-size: 1rem;
+    }
+    .product_layout__list2-info::after {
+        height: 66px;
+    }
+    .margin_bottom2 {
+        margin-bottom: 30px;
+    }
 }
 
 /* mobile */
 
 @media(max-width:754px) {
+    body {
+        background-color: var(--backgroud-color--body);
+    }
+    .container_body {
+        background-color: var(--white-color);
+        margin-top: 18px;
+    }
+    .show_on__mobile {
+        display: block;
+    }
     .action_slide__left {
         display: none;
     }
     .action_slide__right {
         display: none;
     }
-    #nav_header {
+    /* #nav_header {
         max-width: 754px;
-    }
+    } */
     .hide_on__pc {
         display: flex;
     }
+    .nav_header__brand {
+        margin: 2px 1px 0 0;
+    }
     .nav_header__brand-search {
-        width: 100%;
+        /* max-width: 474px; */
     }
     .hide_form {
         display: none;
@@ -130,8 +223,11 @@
     .layout_form__border-height {
         height: 74px;
     }
+    .container_category {
+        background-color: var(--white-color);
+    }
     .category_slide {
-        margin: 60px 0 40px 0;
+        padding: 60px 0 40px 0;
     }
     .category_slide__list>.category_slide__list-item:first-child {
         display: none;
@@ -162,24 +258,18 @@
     .mar_center {
         margin: 0 auto;
     }
-    .banner_footer__layout {
-        background-size: 100% 100%;
-        object-fit: cover;
-        width: 100%;
-    }
-    .banner_footer__layout-heading--up, .banner_footer__layout-heading--down {
+    /* .banner_footer__layout-heading--up, .banner_footer__layout-heading--down {
         padding-right: 180px;
         font-size: 1.2rem;
-    }
-    .banner_footer__layout-search {
-        max-width: 340px;
-    }
+    } */
     .input_wrap__search {
         font-size: 1rem;
         width: 120px;
     }
     .input_wrap {
         width: 61%;
+        padding: 0;
+        width: 67.2%;
     }
     .logo_header {
         margin-left: 10px;
@@ -188,15 +278,15 @@
         display: flex;
         flex-direction: column-reverse;
     }
-    .category_footer__list {
-        margin-bottom: 20px;
-    }
     .products_second__nav-list--link {
         font-size: 0.7rem;
     }
     .category_footer__brand::after {
-        height: 154px;
+        height: 126px;
         top: -100%;
+    }
+    .products_layout {
+        height: 474px;
     }
     .products_layout>img {
         max-width: 100%;
@@ -204,6 +294,32 @@
     .products_list__second-layout>.products_layout>img {
         width: 332px;
         height: 334px;
+    }
+    .product_layout-img {
+        min-height: 260px;
+        max-width: 100%;
+        background-image: url(../img/home_page/img_mobile.jpg);
+    }
+    .info_products {
+        height: 214px;
+        padding: 30px 18px;
+    }
+    .info_name__products {
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    .info_des__products {
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+    .info_price__product {
+        padding: 0px 0 40px 0;
+    }
+    .text {
+        font-size: 1rem;
+    }
+    .price {
+        font-size: 1.4rem;
     }
     .footer {
         height: 300px;
@@ -213,6 +329,7 @@
     }
     .footer_category__header {
         display: block;
+        padding: 0 0 30px 0;
     }
     .container_header {
         min-height: 910px;
@@ -222,5 +339,18 @@
     }
     .form_category>h1 {
         font-size: 1.6rem;
+    }
+    .button_slide__product {
+        display: none;
+    }
+    .products_layout {
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+    }
+    .button_next__slide {
+        display: none;
+    }
+    .margin_top__hrtag {
+        margin-top: 30px;
     }
 }
