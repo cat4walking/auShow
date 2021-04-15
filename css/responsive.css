@@ -241,6 +241,7 @@
     .footer_category__products-list {
         flex-direction: column;
         justify-content: center;
+        width: 0;
     }
     .products_list__text {
         text-align: center;
@@ -352,5 +353,14 @@
     }
     .margin_top__hrtag {
         margin-top: 30px;
+    }
+    .footer_category__products {
+        padding: 20px 0;
+    }
+    .products_list__text {
+        padding: 0;
+    }
+    .info_price__footer-list--link {
+        font-size: 0.8rem;
     }
 }
