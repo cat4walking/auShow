@@ -218,3 +218,7 @@ hr {
 .margin-bottom3 {
     margin-bottom: 30px;
 }
+
+.background_color {
+    background-color: var(--backgroud-color--body);
+}

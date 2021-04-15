@@ -2,6 +2,18 @@
     .product_layout-img {
         width: 270px;
     }
+    .banner_footer__layout {
+        margin: 56px 0;
+    }
+    .button_next__slide {
+        margin-top: -5px;
+    }
+    .position_left {
+        margin-left: 13px;
+    }
+    .banner_footer__layout {
+        height: 195px;
+    }
 }
 
 /* tablet pro */
@@ -251,6 +263,7 @@
     }
     .width_message {
         width: 100%;
+        height: 380px;
     }
     .header_text__list-layout {
         width: 100%;
@@ -356,11 +369,21 @@
     }
     .footer_category__products {
         padding: 20px 0;
+        flex-direction: column;
     }
     .products_list__text {
         padding: 0;
     }
     .info_price__footer-list--link {
         font-size: 0.8rem;
+    }
+    .nav_header__brand-search .nav_header__brand-search--input {
+        margin-left: 0;
+    }
+    .products_list__text>p:last-child {
+        margin-bottom: 10px;
+    }
+    .products_second__nav-list {
+        padding: 0 4px;
     }
 }

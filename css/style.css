@@ -604,13 +604,9 @@ span.value.upper::before {
 }
 
 .list_products__second {
-    background-color: #fff;
     margin-top: 13px;
     flex: 1;
-    padding: 20px 22px;
-    -webkit-box-shadow: 0px 2px 14px 2px rgba(184, 177, 184, 0.6);
-    -moz-box-shadow: 0px 2px 14px 2px rgba(184, 177, 184, 0.6);
-    box-shadow: 0px 2px 14px 2px rgba(184, 177, 184, 0.6);
+    padding-top: 20px;
 }
 
 .products_second__nav {
