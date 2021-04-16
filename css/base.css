@@ -101,7 +101,7 @@ hr {
 .btn {
     display: flex;
     justify-content: center;
-    padding: 14px 18px;
+    padding: 20px 20px;
     text-align: center;
     background-color: #ff4a11;
     outline: none;
