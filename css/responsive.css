@@ -386,4 +386,10 @@
     .products_second__nav-list {
         padding: 0 4px;
     }
+    .text_list__footer-list {
+        font-size: 0.7rem;
+    }
+    .category_footer__list-item--link {
+        font-size: 0.8rem;
+    }
 }
