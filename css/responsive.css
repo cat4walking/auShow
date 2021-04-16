@@ -148,6 +148,12 @@
     .margin_bottom2 {
         margin-bottom: 30px;
     }
+    .category_footer {
+        justify-content: center;
+    }
+    .input_wrap {
+        width: 55%;
+    }
 }
 
 /* mobile */
