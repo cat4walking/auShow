@@ -19,7 +19,7 @@ html {
     font-size: 100%;
     font-family: sans-serif;
     scroll-behavior: smooth;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 
 @-webkit-keyframes fadeInDown {
